@@ -6,6 +6,7 @@ BUILD INSTRUCTIONS (macOS on INTEL ONLY!!(NOT APPLE SILICON OR POWERPC!!!!!)):
       cd /path/to/Socialite
       npm install
       npm run dev
+
     Open `http://localhost:3000` in your browser! :)
 
   HOW TO COMPILE IN ANDROID STUDIO
