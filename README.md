@@ -2,10 +2,14 @@ WARNING - Socialite is in DEVELOPEMENT!! Install at your own risk. I AM NOT RESP
 
 BUILD INSTRUCTIONS (macOS on INTEL ONLY!!(NOT APPLE SILICON OR POWERPC!!!!!)):
   HOW TO RUN SOCIALITE LOCALLY IN WEB BROWSER VIA NPM
-    $bash
-      cd /path/to/Socialite
+   
+	$bash
+      
+	  cd /path/to/Socialite
+	  
       npm install
-      npm run dev
+      
+	  npm run dev
 
     Open `http://localhost:3000` in your browser! :)
 
@@ -16,7 +20,8 @@ BUILD INSTRUCTIONS (macOS on INTEL ONLY!!(NOT APPLE SILICON OR POWERPC!!!!!)):
       Java SDK 11 or later!! Oracle has it 
       A boatload of others (NPM will take care of that)
     Okay. You have that. Now what?
-        $bash
+       
+		$bash
           cd /path/to/Socialite
           sudo npm install  
           sudo npm run build
@@ -24,8 +29,8 @@ BUILD INSTRUCTIONS (macOS on INTEL ONLY!!(NOT APPLE SILICON OR POWERPC!!!!!)):
           sudo npx cap sync android 
           sudo npx cap open android 
           sudo npm run build
-
-        In Android Studio:
+	
+    In Android Studio:
         
         1. Wait for Gradle sync** to complete (first time can take 5-10 minutes)
         2. Go to **Build** → **Build Bundle(s) / APK(s)** → Build APK(s)
