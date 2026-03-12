@@ -13,13 +13,15 @@ BUILD INSTRUCTIONS (macOS on INTEL ONLY!!(NOT APPLE SILICON OR POWERPC!!!!!)):
 
     Open `http://localhost:3000` in your browser! :)
 
-  HOW TO COMPILE IN ANDROID STUDIO
-    Requisites:
+HOW TO COMPILE IN ANDROID STUDIO
+    
+	Requisites:
       Android Studio
       npm AND node.js
       Java SDK 11 or later!! Oracle has it 
       A boatload of others (NPM will take care of that)
-    Okay. You have that. Now what?
+	  
+Okay. You have that. Now what?
        
 		$bash
           cd /path/to/Socialite
